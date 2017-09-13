@@ -1,0 +1,26 @@
+{
+  "name": "exthost",
+  "version": "1.0.0",
+  "description": "json config to host file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "KyuuSeiryuu",
+  "license": "MIT",
+  "dependencies": {
+    "clear": "0.0.1",
+    "yargs": "^8.0.2"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "custom",
+    "host"
+  ],
+  "bin": {
+    "hs": "index.js"
+  }
+}
