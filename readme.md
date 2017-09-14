@@ -4,8 +4,6 @@
 
 ## Quick Start
 
-`npm config set @kyuuseiryuu:registry:http://npm.fzhxkj.com`
-
-`npm i @kyuuseiryuu/exthost`
+`npm i exthost`
 
 `eh -h`
