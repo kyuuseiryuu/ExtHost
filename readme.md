@@ -9,8 +9,9 @@
 ## Quick Start
 
 `npm i exthost`
-
 `eh -h`
+`eh init`
+> 初始化一个 local 配置
 
 ## How to use
 
