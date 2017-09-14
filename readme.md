@@ -4,17 +4,15 @@
 
 ## 理念
 
-所有的配置都可以被管理起来，完全接管系统 host 配置。
+所有的 hosts 配置都可以被管理起来，完全接管系统 host 配置。
 
-## Quick Start
+## 使用
 
 `npm i exthost`
 `eh -h`
 `eh init`
 
-> 初始化一个 local 配置
-
-## How to use
+> 初始化配置，将会创建一个基本的 local 配置和 old 原 hosts 配置。
 
 ` eh a test -I=127.0.0.1 -H=localhost,www.foo.com,foo.com `  
 
@@ -24,7 +22,15 @@
 
 > test 配置文件中添加记录 `gateway` 指向 `192.168.0.1`
 
-## Commands
+`eh u test old local`
+
+> 将会启用 test old local 三个配置。
+
+`eh l`
+
+> 查看配置列表，正在使用的配置将会带有 * 号
+
+## 命令概览
 
 
 ```
@@ -38,8 +44,11 @@ Commands:
   c     (choose) 选择一个 host 配置进行操作
   u     (use) 启用一个或者多个 host 配置
   init  初始化一些通用的默认配置
-  i     (import) 导入一个 .json 配置
+  i     (import) 导入一个配置
   e     (export) 导出所有配置到指定文件夹或用户文件夹
+
+Options:
+  -h  Show help                                                        [boolean]
   
 ```
 ---
