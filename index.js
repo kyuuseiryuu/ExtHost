@@ -7,11 +7,11 @@ const argv = require('yargs')
     .command('l', '(list) 列出所有的 host 配置', commander.list)
     .command('c', '(choose) 选择一个 host 配置进行操作', commander.choose)
     .command('u', '(use) 启用一个或者多个 host 配置', commander.use)
-    .usage('Usage: hs [options]')
+    .usage('Usage: eh [options]')
     .help('h')
     .epilog('By: KyuuSeiryuu 2017/09/14')
     .argv;
 
 console.log('请注意：请先给你的 host 文件赋予当前用户的可写权限。');
 console.log('host 文件路径：/etc/hosts (*unix)');
-console.log('输入：hs -h 获取帮助');
+console.log('输入：eh -h 获取帮助');

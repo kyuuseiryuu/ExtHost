@@ -21,6 +21,6 @@
     "host"
   ],
   "bin": {
-    "hs": "index.js"
+    "eh": "index.js"
   }
 }
