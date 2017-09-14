@@ -1,6 +1,6 @@
 {
   "name": "exthost",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "json config to host file",
   "main": "index.js",
   "scripts": {
